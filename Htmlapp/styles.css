@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(161, 200, 237);
+}
+
+nav .imge img { 
+    height: 100%;  
+    width: 100%;   
+}
+
+nav .imge {
+    height: 140px;
+    width: 140px;
+    padding: 8px;
+    overflow: hidden;
+}
+
+nav {
+    background-color: rgb(51, 191, 234);
+    margin: 5px;
+    height: 160px;
+    border: solid black;
+    box-shadow: 0 10px 30px rgba(0,0,0.2);
+}
+
+.collections a {
+    color: rgb(26, 36, 4);
+    font-size: medium;
+    font-family: Copperplate, Papyrus, fantasy;
+    float: left;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large
+}
+
+div > p{
+    margin-left: 160px;
+    position: absolute;
+    margin-top: 50px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+}
+
+#one{
+    padding: 10px;
+    margin: 5px;
+    float: right;
+    font-size: 4ex;
+}
+
+#two{
+    padding: 10px;
+    margin: 5px;
+    float: right;
+    font-size: 5ex;
+}
+
+#three{
+    padding: 10px;
+    margin: 5px;
+    float: right;
+    font-size: 5ex;
+}
+
+#four{
+    padding: 10px;
+    margin: 5px;
+    float: right;
+    font-size: 5ex;
+}
+
+.big{
+    padding: 10px;
+    height: 600px;
+    box-shadow: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0.2);
+    margin-bottom: 2%;
+}
+
+
+#aa{
+    padding: 10px;
+    margin: 5px;
+    float: right;
+    height: 100px;
+    margin: 1%;
+}
+
+#bb{
+    padding: 10px;
+    margin: 5px;
+    float: right;
+    margin: 1%;
+}
+
+#cc{
+    padding: 10px;
+    margin: 5px;
+    float: right;
+    margin: 1%;
+}
+
+#dd{
+    padding: 10px;
+    margin: 5px;
+    float: right;
+    margin: 1%;
+}
+
+footer{
+    margin-top: 680px;
+    background-color: rgb(40, 39, 39);
+    color: aliceblue;
+    height: 200px;
+}
+
+footer .column {
+    padding: 1%;
+    margin-left: 150px;
+    float: left;
+    width: 21%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
